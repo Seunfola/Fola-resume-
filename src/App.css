@@ -1,39 +1,46 @@
+:root {
+  --yellow: #f5c32c;
+  --orange: #004987;
+  --black: #242d49;
+  --gray: #788097;
+  --blueCard: #ddf8fe;
+  --purple: rgb(238 210 255);
+  --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
+  --orangeCard: rgba(252, 166, 31, 0.45);
+  --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
+}
+
 .App {
-  text-align: center;
+  padding: 0.5rem 3.5rem;
+  overflow: hidden;
+  color: var(--black);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button {
+  border-radius: 34px;
+  border: none;
+  color: rgb(11, 11, 11);
+  font-size: 16px;
+  padding: 10px 30px;
+  background: linear-gradient(180deg, #060607  );
+  /* box-shadow: 0px 20px 24px 3px rgba(251, 161, 40, 0.42); */
 }
+.button:hover {
+  background: white;
+  cursor: pointer;
+  color: var(--orange);
+  border: 1px solid rgb(22, 31, 76);
+}
+.card-img {
+    object-fit: cover;
+}
+.carousel-item>img{
+     object-fit: cover;
+     height: 500px;
+      /* padding-top: 56.25%; */
+}
+ @media screen and (max-width: 480px) {
+    .App {
+      padding: 0.5rem 1rem;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-float infinite 3s ease-in-out;
+    }
   }
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  color: rgb(112, 76, 182);
-}
-
-@keyframes App-logo-float {
-  0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(10px);
-  }
-  100% {
-    transform: translateY(0px);
-  }
-}

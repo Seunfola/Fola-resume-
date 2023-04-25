@@ -1,0 +1,91 @@
+.works{
+    display: flex;
+ height: 70vh;
+}
+.Work-right-div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.w-sec-circle > img{
+    transform: scale(0.5);
+    border-radius: 100%;
+    width: 7rem;
+    height: 7rem;
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(0.5);
+    -ms-transform: scale(0.5);
+    -o-transform: scale(0.5);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.w-main-circle{
+    left: 9rem;
+    position: relative;
+    width: 18rem;
+     height: 18rem;
+     border-radius: 100%;
+     box-shadow: var(--smboxShadow);
+     top:2rem;
+     background: white
+     ;
+}
+
+.w-main-circle>*{
+    position: absolute;
+}
+.w-main-circle> :nth-child(1){
+ top: -3rem; 
+ left: 6.5rem;  
+}
+.w-main-circle> :nth-child(2){
+   left: -3rem; 
+   top:6.5rem ;
+}
+.w-main-circle> :nth-child(3){
+    left: 7rem;
+    top: 6rem;
+}
+.w-main-circle> :nth-child(4){
+    left: 15rem;
+    top: 6.5rem;
+}
+.w-main-circle> :nth-child(5)
+{
+    top: 15rem;
+    left: 6.5rem;
+}
+.w-sec-circle{
+    width: 6rem;
+    height: 6rem;
+    position: absolute;
+    border-radius: 100%;
+    border:  5px solid #ebebeb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    box-shadow: var(--smboxShadow);
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.w-back-circle{
+    position: absolute;
+    height: 14rem;
+    width: 14rem;
+    border-radius: 100%;
+    z-index: -1;
+}
+.bluecircle{    background:#1949bb;
+left: 17rem;
+top: 1rem;
+}
+.yellowcircle{
+background: #f5c32c;
+left: 16rem;
+top: 8rem;
+}

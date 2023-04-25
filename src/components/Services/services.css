@@ -1,0 +1,98 @@
+.services {
+  padding: 0 3rem;
+  display: flex;
+  height: 70vh;
+  margin-bottom: 8rem;
+  margin-top: 1rem;
+  margin-bottom: 13rem;
+}
+.leftdiv {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 1rem;
+}
+.leftdiv > :nth-child(1) {
+  margin-top: 1rem;
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.leftdiv > :nth-child(2) {
+  color: var(--orange);
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.leftdiv > :nth-child(3) {
+  color: var(--gray);
+  font-size: 15px;
+  font-weight: 100;
+  width: 28rem;
+  padding-bottom: 10px;
+}
+.leftdiv > :nth-child(4) {
+  color: var(--gray);
+  font-size: 15px;
+  font-weight: 100;
+  width: 28rem;
+  padding-bottom: 10px;
+}
+.leftdiv > :nth-child(5) {
+  color: var(--gray);
+  font-size: 15px;
+  font-weight: 100;
+  width: 28rem;
+  padding-bottom: 10px;
+}
+.leftdiv > :nth-child(6) {
+  color: var(--gray);
+  font-size: 15px;
+  font-weight: 100;
+  width: 28rem;
+  padding-bottom: 10px;
+}
+.leftdiv > :nth-child(7) {
+  color: var(--gray);
+  font-size: 15px;
+  font-weight: 100;
+  width: 28rem;
+  padding-bottom: 10px;
+}
+.leftdiv > :nth-child(8) {
+  color: var(--gray);
+  font-size: 15px;
+  font-weight: 100;
+  width: 28rem;
+}
+.s-button {
+  width: 15rem;
+  height: 2.5rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+.rightDiv{
+  margin-top: 1rem;
+  position: relative;
+}
+.rightDiv > * {
+  position: absolute;
+}
+
+	@media screen and (max-width: 480px) {
+  .services {
+    margin-top: 0;
+    flex-direction: column;
+    gap: 5rem;
+    height: 66rem;
+    padding: 0;
+  }
+
+  .cardConstruct {
+    display: flex;
+    flex-direction: column;
+    gap: 17rem;
+  }
+  .cardConstruct > * {
+    position: static;
+  }
+}

@@ -1,0 +1,32 @@
+
+.wrapper{
+    margin: 4rem 0;
+    text-align: center;
+     font-size: 3.5rem;
+    color: grey;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.card img{
+    height: 150px;
+    object-fit: scale-down;
+  
+}
+.card-group{
+    width: 100%;
+    margin: auto 10px;
+   
+}
+.card-title{
+    color: grey;
+    font-weight: 600;
+   
+}
+.card-body{
+    text-align: center;
+    color: grey;
+}
+.card{
+    padding: 10px;
+    border: 0.5px solid rgb(19, 17, 17);
+}
