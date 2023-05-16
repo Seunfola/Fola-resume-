@@ -1,6 +1,6 @@
 .works{
     display: flex;
- height: 70vh;
+ height: 60vh;
 }
 .Work-right-div{
     display: flex;
@@ -21,18 +21,16 @@
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
 }
-.w-main-circle{
+.w-main-circle {
     left: 9rem;
     position: relative;
     width: 18rem;
-     height: 18rem;
-     border-radius: 100%;
-     box-shadow: var(--smboxShadow);
-     top:2rem;
-     background: white
-     ;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: var(--smboxShadow);
+    top:2rem;
+    background: white ;
 }
-
 .w-main-circle>*{
     position: absolute;
 }
@@ -80,7 +78,8 @@
     border-radius: 100%;
     z-index: -1;
 }
-.bluecircle{    background:#1949bb;
+.bluecircle{   
+background:#1949bb;
 left: 17rem;
 top: 1rem;
 }
@@ -88,4 +87,26 @@ top: 1rem;
 background: #f5c32c;
 left: 16rem;
 top: 8rem;
+}
+
+@media only screen and (max-width: 600px) and (min-width: 400px) {
+  .works {
+    flex-direction: column;
+    height: 55rem;
+    padding: 0;
+    gap: 5rem;
+  }
+
+  .w-right {
+    display: block;
+  
+    transform: scale(0.7);
+  }
+  .w-mainCircle{
+    position: static;
+  }
+  .w-backCircle{
+    left: 8rem!important;
+  }
+
 }

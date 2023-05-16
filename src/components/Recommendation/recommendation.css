@@ -10,7 +10,6 @@
 .card img{
     height: 150px;
     object-fit: scale-down;
-  
 }
 .card-group{
     width: 100%;
@@ -22,9 +21,19 @@
     font-weight: 600;
    
 }
+.card-text{
+    text-align: justify;
+}
 .card-body{
     text-align: center;
     color: grey;
+}
+.card-body>:nth-child(3){
+    text-align: center;
+}
+.card-body>:nth-child(4){
+    text-align: center;
+    color: blue;
 }
 .card{
     padding: 10px;

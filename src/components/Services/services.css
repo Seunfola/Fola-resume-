@@ -78,21 +78,85 @@
   position: absolute;
 }
 
-	@media screen and (max-width: 480px) {
+@media only screen and (max-width: 600px) and (min-width: 400px) {
   .services {
-    margin-top: 0;
-    flex-direction: column;
-    gap: 5rem;
-    height: 66rem;
-    padding: 0;
-  }
+    margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
 
-  .cardConstruct {
-    display: flex;
-    flex-direction: column;
-    gap: 17rem;
   }
-  .cardConstruct > * {
-    position: static;
-  }
+.leftdiv{
+  margin-top: 20rem;
+}
+.leftdiv > :nth-child(1) {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 6rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.leftdiv > :nth-child(2) {
+  color: var(--orange);
+  font-size: 2rem;
+margin-top: -1rem;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.leftdiv > :nth-child(3) {
+  font-size: 14px;
+  font-weight: 100;
+  width: fit-content;
+  text-align: justify;
+  padding-bottom: 3px;
+}
+.leftdiv > :nth-child(4) {
+
+  font-size: 14px;
+  font-weight: 100;
+    width: fit-content;
+  text-align: justify;
+  padding-bottom: 3px;
+}
+.leftdiv > :nth-child(5) {
+  font-size: 14px;
+  font-weight: 100;
+  width: fit-content;
+  text-align: justify;
+  padding-bottom: 3px;
+}
+.leftdiv > :nth-child(6) {
+  
+  font-size: 14px;
+  font-weight: 100;
+    width: fit-content;
+  text-align: justify;
+  padding-bottom: 3px;
+}
+.leftdiv > :nth-child(7) {
+  
+  font-size: 14px;
+   width: fit-content;
+  text-align: justify;
+ padding-bottom: 3px;
+  
+}
+.leftdiv > :nth-child(8) {
+ 
+  font-size: 14px;
+  font-weight: 100;
+   width: fit-content;
+  text-align: justify;
+ padding-bottom: 3px;
+}
+.rightDiv {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 25%;
+}
+.rightDiv>*{
+  display: none;
+}
 }

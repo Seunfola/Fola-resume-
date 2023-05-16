@@ -1,23 +1,29 @@
 .values-card{
-   height: 110vh;
+   height: 70vh;
   display: flex;
-  margin-top: 3rem;
+  margin-top: 1rem;
+width: 100%;
+justify-content: center;
+align-items: center;
 }
-h2{
-    color: var(--orange);
-    font-size: 32px;
-    row-gap: 0.5rem;
-    text-decoration: underline;
-    margin-top: -45rem;
-}
-
 .values-points{
+    color: var(--orange);
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.values-points>:nth-child(1){
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: -26%;
+}
+.values-content-envelope{
 display: flex;
-  
   justify-content: center;
   align-items: center;
   width: 100%;
-
   gap: 1rem;
 }
 
@@ -51,3 +57,27 @@ span>b{
   padding: 20px 26px 2rem 26px;
   color: var(--gray);
 }
+@media only screen and (max-width: 600px) and (min-width: 400px)  {
+  .values-card{
+   
+display: block;
+height: 70vh;
+width: 100%;
+justify-content: center;
+align-items: center;
+  }
+  .values-content-envelope{
+    display: flex;
+    flex-direction: column;
+    margin-top: -15%;
+ 
+  }
+ .value-content{
+  display: block;
+   margin-left: -20%; 
+ }
+ .value-content>:nth-child(1){
+display: block;
+margin: auto;
+ }
+  }

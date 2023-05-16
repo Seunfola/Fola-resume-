@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar/Navbar.jsx";
 import Intro from "./components/intro/Intro.jsx";
 import Services from "./components/Services/Services.jsx";
 import Experience from "./components/Experience/Experience.jsx";
-import Works from "./components/Works/Works.jsx";
+// import Works from "./components/Works/Works.jsx";
 import Values from "./components/Values/Values";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
@@ -22,8 +22,8 @@ function App() {
     <div
       className="App"
       style={{
-        background: darkMode ? "black" : "",
-        color: darkMode ? "white" : "",
+        background: darkMode ? "black" : "white",
+        color: darkMode ? "white" : "black",
       }}
     >
       <Navbar />
@@ -31,7 +31,7 @@ function App() {
       <Values />
       <Services />
       <Experience />
-      <Works />
+      {/* <Works /> */}
       <Portfolio />
       <Recommendation />
       <Contact />

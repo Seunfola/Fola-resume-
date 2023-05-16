@@ -13,37 +13,33 @@ const Recommendation = () => {
                 <span className=' wrapper fs-3'>Recommendations</span>
 
             </div>
-            <div class="card-group">
-                <div class="card border-0 ms-3">
-                    <img src={Bolaji} class="card-img-top" alt="..." />
-                    <div class="card-body">
-                        <h5 class="card-title">Bolaji Ajani</h5>
-                        <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Senior Front-End Developer MenaGet</small></p>
+            <div className="card-group">
+                <div className="card border-0 ms-3">
+                    <img src={Bolaji} className="card-img-top" alt="Bolaji" />
+                    <div className="card-body">
+                        <h5 className="card-title">Bolaji Ajani</h5>
+                        <p className="card-text ">Folahan has a strong understanding of frontend development and has shown an ability to quickly adapt to new technologies and frameworks. He is a dedicated and hardworking team player who consistently delivers high-quality work.  </p>
+                        <p className="card-text"><small className="text-muted">Senior Front-End Developer MenaGet</small></p>
+                        <p><i>bossfelfo@gmail.com</i></p>
                     </div>
                 </div>
-                <div class="card ms-2 border-0">
-                    <img src={flex1} class="card-img-top" alt="..." />
-                    <div class="card-body">
-                        <h5 class="card-title">Felix Afolayan</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text"><small class="text-muted">Mid-Level Frond-End Developer</small></p>
+                <div className="card ms-2 border-0">
+                    <img src={flex1} className="card-img-top" alt="Feliix" />
+                    <div className="card-body">
+                        <h5 className="card-title">Felix Afolayan</h5>
+                        <p className="card-text">The valuable contribution to any project at hand, his passion for frontend development and eagerness to learn makes him an ideal guy I always want to works with. He is an asset to any team. Please do not hesitate to contact me if you require any further information.</p>
+                        <p className="card-text"><small className="text-muted">Mid-Level Frond-End Developer</small></p>
+                        <span><i>fabulousbj@hotmail.com</i></span>
                     </div>
                 </div>
-                <div class="card ms-2 border-0">
-                    <img src={John} class="card-img-top" alt="..." />
-                    <div class="card-body">
-                        <h5 class="card-title">John Daniels</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text"><small class="text-muted">Full-Stack Developer Bulb-Africa</small></p>
-                    </div>
-                </div>
-                <div class="card ms-2 border-0">
-                    <img src={Toun} class="card-img-top" alt="..." />
-                    <div class="card-body">
-                        <h5 class="card-title">Adetoun Olayemi</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        <p class="card-text"><small class="text-muted">Senior Front-End Developer Credo</small></p>
+                <div className="card ms-2 border-0">
+                    <img src={Toun} className="card-img-top" alt="Adetoun" />
+                    <div className="card-body">
+                        <h5 className="card-title">Adetoun Olayemi</h5>
+                        <p className="card-text">In the time that I have had the pleasure of working alongside Fola, I have been consistently impressed with his skills and work ethic.. He never giving up person with strong desire to grow, pays attention to detail and willingness to take on new challenges.</p>
+                        <p className="card-text"><small className="text-muted">Senior Front-End Developer Credo</small></p>
+
+                        <p><i>adetoun@thebulb.africa</i></p>
                     </div>
                 </div>
             </div>

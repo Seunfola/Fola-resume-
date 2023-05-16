@@ -52,3 +52,15 @@ textarea{
     top: 1rem;
     left: 8rem;
 }
+@media only screen and (max-width: 600px) and (min-width: 400px){
+    .contact-form{
+        padding: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 40rem;
+    }
+    .c-right .user{
+        width: 16rem;
+    }
+
+} 

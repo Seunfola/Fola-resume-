@@ -17,13 +17,9 @@
   gap: 4rem;
   color: rgb(255, 255, 255);
 }
+
 .f-icons {
   display: flex;
   gap: 2rem;
 }
 
-@media screen and (max-width: 480px){
-  .f-content{
-    transform: scale(.5);
-  }
-}

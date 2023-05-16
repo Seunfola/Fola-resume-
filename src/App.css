@@ -13,6 +13,8 @@
 .App {
   padding: 0.5rem 3.5rem;
   overflow: hidden;
+  position: relative;
+  overflow-x: clip;
   color: var(--black);
 }
 .button {

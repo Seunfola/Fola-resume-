@@ -35,3 +35,7 @@
   color: #5290fd;
 
 }
+@media only screen and (max-width: 600px) and (min-width: 400px)  {  .card{
+    width: auto;
+  }
+}

@@ -1,8 +1,9 @@
 import React from "react";
 import "./portfolio.css";
-import Currencyswap from "../../img/Currency-Swap.jpg";
+
 import AdviceGen from "../../img/Advice-Gen.jpg";
-import Emart from "../../img/Emart.jpg";
+import Emart2 from "../../img/Emart2.jpg";
+import Real from '../../img/Real.jpg'
 
 
 
@@ -21,91 +22,93 @@ const Portfolio = () => {
           fontWeight: "bold"
         }}>Portfolio</span>
       </div>
-
-      <div
-        id="carouselExampleCaptions"
-        className="carousel slide m-3"
-        width="100%"
-      >
-        <div className="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            className="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img
-              src={Emart}
-              className="d-block h-sm w-100"
-
-              alt="..."
-            />
-            <div className="carousel-caption d-none d-md-block">
-              <h5 className="fw-bolder font-monospace fs-2">
-                Online Store
-              </h5>
-
-            </div>
-          </div>
-          <div className="carousel-item">
-            <img src={AdviceGen} className="d-block w-100" alt="..." />
-            <div className="carousel-caption d-none d-md-block">
-              <h5 className="fw-bolder font-monospace fs-2">
-                Advice Generator
-              </h5>
-
-            </div>
-          </div>
-          <div className="carousel-item">
-            <img
-              src={Currencyswap}
-              className="d-block w-100"
-
-              alt="..."
-            />
-            <div className="carousel-caption d-none d-md-block">
-              <h5 className="fw-bolder font-monospace fs-2">
-                
-              </h5>
-
-            </div>
-          </div>
-        </div>
-        <button
-          className="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
+      <div className="p-wrapper">
+        <div
+          id="carouselExampleCaptions"
+          className="carousel slide rounded m-3"
+          width="100%"
         >
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button
-          className="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button>
+          <div className="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              className="active me-1"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              className="me-2"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div className="carousel-inner">
+            <div className="carousel-item active">
+              <img
+                src={Real}
+                className="d-block h-sm w-100"
+
+                alt="..."
+              />
+              <div className="carousel-caption d-none d-md-block">
+                <h5 className="fw-bolder font-monospace fs-2">
+                  Online Store
+                </h5>
+
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img src={AdviceGen} className="d-block w-100" alt="..." />
+              <div className="carousel-caption d-none d-md-block">
+                <h5 className="fw-bolder font-monospace fs-2">
+                  Advice Generator
+                </h5>
+
+              </div>
+            </div>
+            <div className="carousel-item">
+              <img
+                src={Emart2}
+                className="d-block w-100"
+
+                alt="..."
+              />
+              <div className="carousel-caption d-none d-md-block">
+                <h5 className="fw-bolder font-monospace fs-2">
+
+                </h5>
+
+              </div>
+            </div>
+          </div>
+          <button
+            className="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Previous</span>
+          </button>
+          <button
+            className="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+            <span className="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
     </>
   );
