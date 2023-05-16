@@ -9,7 +9,7 @@ const Experience = () => {
         <div className='e-wrapper'>
       <button className="btn btn-primary me-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Experience</button>
       <button className="btn btn-primary me-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="#offcanvasScrolling">Education</button>
-      <button className="btn btn-primary me-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="#offcanvasScrolling">Soft Skills</button>
+      
       </div>
       <div className="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
         <div className="offcanvas-header">
