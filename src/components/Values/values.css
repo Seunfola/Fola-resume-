@@ -57,7 +57,7 @@ span>b{
   padding: 20px 26px 2rem 26px;
   color: var(--gray);
 }
-@media only screen and (max-width: 698px) and (min-width: 375px)  {
+@media only screen and (max-width: 896px) and (min-width: 360px)  {
   .values-card{
 display: block;
 height: 90vh;

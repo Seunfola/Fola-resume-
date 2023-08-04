@@ -49,7 +49,7 @@
 .menu-icon{
   display: none;
 }
-@media only screen and (max-width: 896px) and (min-width: 375px){
+@media only screen and (max-width: 896px) and (min-width: 360px){
   .n-wrapper{
     display: flex;
   }
