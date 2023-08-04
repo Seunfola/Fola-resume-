@@ -3,30 +3,22 @@ import "./portfolio.css";
 import AdviceGen from "../../img/Advice-Gen.jpg";
 import Emart2 from "../../img/Emart2.jpg";
 import Real from '../../img/Real.jpg'
+import { Link } from "react-scroll";
 
 
 
 const Portfolio = () => {
   return (
-    <>
+    <div className="Portfolio">
+      
       <div className="wrapper">
-        <span className="none-one d-block text-center" style={{
-          color: "grey",
-          fontSize: "2rem",
-          fontWeight: "bold"
-        }}>Recent Projects</span>
-        <span className="none-two text-center" style={{
-          color: "#004987",
-          fontSize: "2.5rem",
-          fontWeight: "bold"
-        }}>Portfolio</span>
       </div>
       <div className="p-wrapper">
         <div
           id="carouselExampleCaptions"
           className="carousel slide rounded m-3"
           width="100%"
-          
+
         >
           <div className="carousel-indicators">
             <button
@@ -53,15 +45,16 @@ const Portfolio = () => {
           </div>
           <div className="carousel-inner">
             <div className="carousel-item active">
-              <img
-                src={Real}
-                className="d-block h-sm w-100"
-href="https://bulb-capstone-9b12.vercel.app/home"
-                alt="image for the mart"
-              />
+              <a href="https://real-estate-lemon-five.vercel.app/">
+                <img
+                  src={Real}
+                  className="d-block h-sm w-100"
+                  alt="image for the mart"
+                />
+              </a>
               <div className="carousel-caption d-none d-md-block">
                 <h5 className="fw-bolder font-monospace fs-2">
-                  Online Store
+                  Real Estate
                 </h5>
 
               </div>
@@ -76,15 +69,16 @@ href="https://bulb-capstone-9b12.vercel.app/home"
               </div>
             </div>
             <div className="carousel-item">
-              <img
-                src={Emart2}
-                className="d-block w-100"
-href=""
-                alt="..."
-              />
+              <a href="https://bulb-capstone-9b12.vercel.app/home">
+                <img
+                  src={Emart2}
+                  className="d-block w-100"
+                  alt="..."
+                />
+              </a>
               <div className="carousel-caption d-none d-md-block">
                 <h5 className="fw-bolder font-monospace fs-2">
-
+                  Online Store
                 </h5>
 
               </div>
@@ -110,7 +104,7 @@ href=""
           </button>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
