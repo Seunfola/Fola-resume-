@@ -1,6 +1,5 @@
 import React from "react";
 import "./portfolio.css";
-
 import AdviceGen from "../../img/Advice-Gen.jpg";
 import Emart2 from "../../img/Emart2.jpg";
 import Real from '../../img/Real.jpg'
@@ -27,6 +26,7 @@ const Portfolio = () => {
           id="carouselExampleCaptions"
           className="carousel slide rounded m-3"
           width="100%"
+          
         >
           <div className="carousel-indicators">
             <button
@@ -56,8 +56,8 @@ const Portfolio = () => {
               <img
                 src={Real}
                 className="d-block h-sm w-100"
-
-                alt="..."
+href="https://bulb-capstone-9b12.vercel.app/home"
+                alt="image for the mart"
               />
               <div className="carousel-caption d-none d-md-block">
                 <h5 className="fw-bolder font-monospace fs-2">
@@ -67,7 +67,7 @@ const Portfolio = () => {
               </div>
             </div>
             <div className="carousel-item">
-              <img src={AdviceGen} className="d-block w-100" alt="..." />
+              <img src={AdviceGen} className="d-block w-100" alt="..." href="" />
               <div className="carousel-caption d-none d-md-block">
                 <h5 className="fw-bolder font-monospace fs-2">
                   Advice Generator
@@ -79,7 +79,7 @@ const Portfolio = () => {
               <img
                 src={Emart2}
                 className="d-block w-100"
-
+href=""
                 alt="..."
               />
               <div className="carousel-caption d-none d-md-block">

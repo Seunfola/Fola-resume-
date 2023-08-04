@@ -2,6 +2,7 @@
   padding: 0 3rem;
   display: flex;
   height: 70vh;
+  gap: 4rem;
   margin-bottom: 8rem;
   margin-top: 1rem;
   margin-bottom: 13rem;
@@ -77,10 +78,19 @@
 .rightDiv > * {
   position: absolute;
 }
-
-@media only screen and (max-width: 600px) and (min-width: 400px) {
+.crd1{
+  left: 25rem;
+}
+.crd2{
+  left: 10rem;
+}
+.crd3{
+  left: 20.5rem;
+  top: 17.5rem;
+}
+@media only screen and (max-width: 698px) and (min-width: 375px) {
   .services {
-    margin-top: 5rem;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 
@@ -150,13 +160,9 @@ align-items: center;
   text-align: justify;
  padding-bottom: 3px;
 }
-.rightDiv {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  margin-top: 25%;
-}
-.rightDiv>*{
+.rightDiv{
   display: none;
 }
+
+
 }

@@ -35,7 +35,9 @@
   color: #5290fd;
 
 }
-@media only screen and (max-width: 600px) and (min-width: 400px)  {  .card{
-    width: auto;
+@media only screen and (max-width: 991px) and (min-width: 480px) { 
+   .cards>*{
+    display: flex;
+    flex-direction: column;
   }
 }

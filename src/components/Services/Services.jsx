@@ -50,21 +50,21 @@ const Services = () => {
         </a>
       </div>
       <div className="rightDiv">
-        <div style={{ left: "30rem" }}>
+        <div className="crd1">
           <CardConstruct
             emoji={HeartEmoji}
             heading={"Design"}
             details={"Canva, Figma"}
           />
         </div>
-        <div style={{ left: "10rem", top: "" }}>
+        <div lassName="crd2">
           <CardConstruct
             emoji={Glasses}
             heading={"Frontend"}
-            details={"Html, CSS,Bootstrap, JavaScript, React, Redux"}
+            details={"Html, CSS,Bootstrap, JavaScript, React, Next"}
           />
         </div>
-        <div style={{ left: "20.5rem", top: "17.5rem" }}>
+        <div className="crd3">
           <CardConstruct
             emoji={Humble}
             heading={"Backend"}

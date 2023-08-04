@@ -5,7 +5,10 @@
      object-fit: scale-down;
    
 }
-	@media only screen and (max-width: 680px) and (min-width: 400px) {
+	/* @media only screen and (max-width: 680px) and (min-width: 375px) {
+ .wrapper{
+   margin-top: -49%;
+ }
  .carousel-item{
     margin-top: 0;
  }
@@ -13,4 +16,4 @@
     margin-top: -40%;
  }
      
-    }
+    } */

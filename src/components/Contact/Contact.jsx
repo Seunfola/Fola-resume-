@@ -43,7 +43,7 @@ const Contact = () => {
                 <form ref={form} onSubmit={sendEmail}>
                     <input type='text' name='user_name' className='user' Placeholder='Name' />
                     <input type='email' name='user_email' className='user' Placeholder='Email' />
-                    <textarea name='message' className='user' placeholder='Message' />
+                    <textarea name='message' className='user' autoComplete='on' spellCheck='true' placeholder='Message' />
                     <input type='submit' value='Send' className='button' />
                     <span>{done && "Thanks for Contacting me!"}</span>
 

@@ -16,14 +16,7 @@ const Intro = () => {
           A pragmatic, diligent and talented Frontend Developer with high level of <br />Experience in web designing
           and development, producing quality work.
         </span>
-        {/* <span>
-          A pragmatic, diligent and talented Front-end web Developer with 2 years experience and expertise in <br/><b> "HTML, CSS, JavaScript, CSS frameworks and libraries 
-          (Bootstrap, Material UI), API Integration, React and Redux and
-            Redux-Toolkit" </b><br/>for web application state management. Worked in a team of 5 to develop an E-mart web
-          application, deployed to the Git-Hub. Boosted the conversion rate of an existing website with improved code
-          and design increasing sales by 25%. Seeking to work in an educating and rewarding environment, attain
-          professional proficiency, and contribute immensely to its progress.
-        </span> */}
+       
         <div className="i-icons">
           <a href="https://github.com/Seunfola">
             <img src={Github} alt="github" />

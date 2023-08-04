@@ -20,7 +20,7 @@ const Recommendation = () => {
                         <h5 className="card-title">Bolaji Ajani</h5>
                         <p className="card-text ">Folahan has a strong understanding of frontend development and has shown an ability to quickly adapt to new technologies and frameworks. He is a dedicated and hardworking team player who consistently delivers high-quality work.  </p>
                         <p className="card-text"><small className="text-muted">Senior Front-End Developer MenaGet</small></p>
-                        <p><i>bossfelfo@gmail.com</i></p>
+                        <p><i>fabulousbj@hotmail.com</i></p>
                     </div>
                 </div>
                 <div className="card ms-2 border-0">
@@ -29,7 +29,7 @@ const Recommendation = () => {
                         <h5 className="card-title">Felix Afolayan</h5>
                         <p className="card-text">The valuable contribution to any project at hand, his passion for frontend development and eagerness to learn makes him an ideal guy I always want to works with. He is an asset to any team. Please do not hesitate to contact me if you require any further information.</p>
                         <p className="card-text"><small className="text-muted">Mid-Level Frond-End Developer</small></p>
-                        <span><i>fabulousbj@hotmail.com</i></span>
+                        <span><i>bossfelfo@gmail.com</i></span>
                     </div>
                 </div>
                 <div className="card ms-2 border-0">

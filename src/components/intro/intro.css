@@ -58,25 +58,25 @@
   }
   
 
-	@media only screen and (max-width: 680px) and (min-width: 400px) {
+@media only screen and (max-width: 896px) and (min-width: 375px) {
   .intro {
     flex-direction:column;
-   
-    width: 100%;
+   align-items: center;
   }
   .i-name > :nth-child(1) {
  
-  font-size: 2.5rem;
+  font-size: 2.4rem;
  
 }
 .i-name > :nth-child(2) {
  
-  font-size: 2.5em;
+  font-size: 2.4em;
 }
 .i-name > :nth-child(3) {
   
-  font-size: 1rem;
+  font-size: 0.95rem;
    text-align: justify;
+   width: auto;
 }
 .i-name > :nth-child(4) {
   font-size: 1rem;
@@ -90,8 +90,9 @@
 .i-right {
    transform: scale(0.8);
   flex-direction:column;
-margin-top: -35%;
-margin-left: -30%;
+  align-items: center;
+/* margin-top: -35%;
+margin-left: -30%; */
 
 }
 .i-right > :nth-child(1) {

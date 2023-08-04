@@ -15,16 +15,17 @@ const Navbar = () => {
   }
 
   return (
-    <div className="n-wrapper " id="Navbar">
+    <div className="p-wrapper " id="Navbar">
       <div className="n-left" >
         <div className="n-name">Folahanmi</div>
         <Toggle />
       </div>
       <div className="n-right">
         {/* <OutsideClickHandler onOutsideClick={() => menuOpened(false)}> */}
+        
         <div className="n-list">
-          
-            <ul className="menu" style={ getMenuStyles(menuOpened) } >
+
+          <ul className="menu" style={getMenuStyles(menuOpened)} >
             <li>
               <Link activeClass="active" to="intro" spy={true} smooth={true}>
                 Home
@@ -45,20 +46,15 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <Link activeClass="active" to="recommendation" spy={true} smooth={true}>
-                Recommendation
+              <Link activeClass="active" to="recommendation" spy={true} smooth={true}>Recommendation
               </Link>
             </li>
-            <Link to="contact" spy={true} smooth={true}>
-              <button className="button n-button">Contact</button>
-            </Link>
           </ul>
-          
         </div>
-       
+
         <div className='menu-icon' onClick={() => setMenuOpened((prev) => !prev)}>
           < BiAlignJustify size={35} /> </div>
-      {/* </OutsideClickHandler> */}
+        {/* </OutsideClickHandler> */}
       </div>
     </div>
   );
