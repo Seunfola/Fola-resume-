@@ -14,6 +14,7 @@
   font-weight: bold;
   font-size: 3rem;
 }
+
 .i-name > :nth-child(2) {
   color: var(--orange);
   font-weight: bold;
@@ -40,9 +41,16 @@
 
 .i-icons > * {
   transform: scale(0.5);
+  text-decoration: none;
+  text-align: center;
 }
 .i-icons > *:hover {
   cursor: pointer;
+}
+.icon-text{
+  gap: 1rem;
+  font-size: 26px;
+  color: var(--orange);
 }
 
 .i-right > :nth-child(1) {
