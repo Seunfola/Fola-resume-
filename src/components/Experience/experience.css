@@ -29,13 +29,10 @@
 @media only screen and (max-width: 698px) and (min-width: 360px)  { 
    .experience{
         transform: scale(1.3);
-        height: 190vh;
+        height: 200vh;
         display: flex;
         flex-direction: column;
-        -webkit-transform: scale(1.3);
-        -moz-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        -o-transform: scale(1.3);
+
 }
      .experience>:nth-child(1){
       text-align: center;
@@ -46,8 +43,7 @@
  .n-wrapper{
         display: flex;
         flex-direction: column;
-        margin-top: 0px;
-        gap: 4rem;
+        gap: 6rem;
         align-items: center;
  }
 }

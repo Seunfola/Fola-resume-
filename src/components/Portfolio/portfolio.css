@@ -1,5 +1,6 @@
 .Portfolio{
    width: 100%;
+   height: 70vh;
    margin: auto;
    display: flex;
    flex-direction: column;
@@ -17,15 +18,15 @@
 .carousel-inner{
    margin: auto;
 }
-	/* @media only screen and (max-width: 680px) and (min-width: 375px) {
- .wrapper{
-   margin-top: -49%;
+	@media only screen and (max-width: 896px) and (min-width: 360px) {
+ .Portfolio{
+   margin-top: -150%;
  }
  .carousel-item{
     margin-top: 0;
  }
  .carousel-inner{
-    margin-top: -40%;
+    margin:auto;
  }
      
-    } */
+    }

@@ -8,6 +8,15 @@
     text-align: center;
     margin: 5rem auto;
 }
+.message{
+     padding: 0, 3rem;
+    display: flex;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 5rem auto; 
+}
 .awesome{
     display: flex;
     flex-direction: column;
