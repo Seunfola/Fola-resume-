@@ -4,6 +4,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { ThemeProvider } from "./Context";
 import "./index.css";
+import { Toaster } from "react-hot-toast";
 
 
 
@@ -14,6 +15,7 @@ root.render(
   <React.StrictMode>
     <ThemeProvider>
       <App />
+      <Toaster/>
     </ThemeProvider>
   </React.StrictMode>
 );
