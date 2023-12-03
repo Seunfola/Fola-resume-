@@ -9,19 +9,19 @@ import { Gitub } from "@iconscout/react-unicons/icons/uil-github";
 const Intro = () => {
   return (
     <div className="intro">
-
       <div className="i-name">
-        <span>Hello! I Am </span>
-        <span>Folahan Mosunmola </span>
+        <span>I'm Folahan Mosunmola </span>
+        <span>A Software Engineer</span>
         <span>
-          A pragmatic, diligent and talented Frontend Developer with high level of <br />Experience in web designing
-          and development, producing quality work.
+          Hi, I am a software developer that loves building powerful,<br/> 
+          interactive and extensible web applications using modern technologies and stack. <br />
+          I love writing clean, optimized, extensible and self-explanatory code that meets industry standard.
         </span>
 
         <div className="i-icons">
           <a href="https://github.com/Seunfola">
             <img src={Github} alt="github" />
-            <p className="icon-text">Gitub</p>
+            <p className="icon-text">GitHub</p>
           </a>
           <a href="https://www.linkedin.com/in/folahan-m-37b48bb2/">
             <img src={LinkedIn} alt="linkedin" />

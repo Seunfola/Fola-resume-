@@ -4,7 +4,7 @@ import HeartEmoji from "../../img/heartemoji.png";
 import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import CardConstruct from "../Card/Card";
-import FolaCV from "../../img/FolaCV.pdf";
+import FolaCV from "../../img/FolaCV .pdf";
 
 
 

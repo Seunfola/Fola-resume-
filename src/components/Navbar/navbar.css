@@ -10,9 +10,12 @@
   display: flex;
   gap: 2rem;
 }
-.n-name {
-  font-weight: 2.5rem;
-  font-weight: bolder;
+.n-left > :nth-child(1) {
+    border-radius: 50%;
+    transform: scale(0.7);
+    height: 150px;
+    width: 150px;
+
 }
 .n-right {
   display: flex;

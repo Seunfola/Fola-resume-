@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import "./navbar.css";
+import MyLogo from "../../img/BG3.png";
 import Toggle from "../Toggle/Toggle";
 import { Link } from 'react-scroll';
 import { BiAlignJustify } from 'react-icons/bi';
@@ -17,7 +18,7 @@ const Navbar = () => {
   return (
     <div className="p-wrapper " id="Navbar">
       <div className="n-left" >
-        <div className="n-name">Folahanmi</div>
+          <img src={MyLogo} alt="logo" />
         <Toggle />
       </div>
       <div className="n-right">

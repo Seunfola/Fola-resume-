@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './contact.css';
-import { useForm, ValidationError } from '@formspree/react';
 import { useRef, useContext } from 'react';
 import { themeContext } from "../../Context";
+import emailjs from '@emailjs/browser';
 import toast from 'react-hot-toast';
 const Contact = () => {
-    // const [state, handleSubmit] = useForm("xzbldqvd");
+
     const form = useRef();
     const theme = useContext(themeContext);
     const darkMode = theme.state.darkMode;
@@ -21,9 +21,8 @@ const Contact = () => {
             });
     };
 
-    const notify = () => toast('Message Sent and delivered successfully.');
-    if (state.succeeded) {
-        return notify;
+    const notify = () => {
+        toast('Message Sent and delivered successfully.');
     }
 
     return (
@@ -37,25 +36,25 @@ const Contact = () => {
             </div>
             <div className='c-right'>
                 <form ref={form} onSubmit={sendEmail}>
-                    <input type='text' id='name' name='name' className='user' Placeholder='Name' required />
-                    <ValidationError
+                    <input type='text' id='name' name='name' className='user' Placeholder='Your Name' required />
+                    {/* <ValidationError
                         prefix="Name"
                         field="name"
                         errors={state.errors}
-                    />
-                    <input type='email' id='email' name='email' className='user' Placeholder='Email' required />
-                    <ValidationError
+                    /> */}
+                    <input type='email' id='email' name='email' className='user' Placeholder='Your Email' required />
+                    {/* <ValidationError
                         prefix="Email"
                         field="email"
                         errors={state.errors}
-                    />
-                    <textarea name='message' className='user' autoComplete='on' spellCheck='true' placeholder='Message' required />
-                    <ValidationError
+                    /> */}
+                    <textarea name='message' className='user' autoComplete='on' spellCheck='true' placeholder='Type your Message' required />
+                    {/* <ValidationError
                         prefix="Message"
                         field="message"
                         errors={state.errors}
-                    />
-                    <input type='submit' value='Send' className='button' onClick={notify} disabled={state.submitting} />
+                    /> */}
+                    <input type='submit' value='Send' className='button' onClick={notify} />
                     {/* <span>{done && "Thanks for Contacting me!"}</span> */}
 
                 </form>
