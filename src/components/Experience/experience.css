@@ -28,11 +28,14 @@
 
 @media only screen and (max-width: 698px) and (min-width: 360px)  { 
    .experience{
+    margin-top: -50vh;
         transform: scale(1.3);
         height: 200vh;
         display: flex;
         flex-direction: column;
-
+}
+.btn-close{
+  transform: scale(0.5);
 }
      .experience>:nth-child(1){
       text-align: center;
@@ -46,4 +49,12 @@
         gap: 6rem;
         align-items: center;
  }
+ .offcanvas-body{
+  margin-top: -10rem;
+  transform: scale(0.8);
+ }
+.offcanvas-start{
+  transform: scale(0.7);
+
+}
 }
