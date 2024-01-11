@@ -1,6 +1,5 @@
 import React from 'react';
 import Bolaji from '../../img/Boalji.jpg';
-import John from '../../img/John.jpeg';
 import Toun from '../../img/Toun.jpeg';
 import flex1 from '../../img/flex1.jpg';
 import './recommendation.css';

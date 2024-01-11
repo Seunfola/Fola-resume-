@@ -9,13 +9,15 @@
   align-items: center;
   display: flex;
   gap: 2rem;
+  
 }
 .n-left > :nth-child(1) {
     border-radius: 50%;
     transform: scale(0.7);
     height: 150px;
     width: 150px;
-
+    scale: 0.6;
+    margin-top: 5px;
 }
 .n-right {
   display: flex;

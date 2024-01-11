@@ -30,8 +30,8 @@ const Contact = () => {
             <div w-left>
                 <div className='awesome'>
                     <span style={{ color: darkMode ? 'white' : '' }}>Get in Touch</span>
-                    <span> contact me</span>
-                    <div className='blur s-blurl' style={{ background: '#ABF1FF94' }}></div>
+                    {/* <span> contact me</span> */}
+                    {/* <div className='blur s-blurl' style={{ background: '#ABF1FF94' }}></div> */}
                 </div>
             </div>
             <div className='c-right'>

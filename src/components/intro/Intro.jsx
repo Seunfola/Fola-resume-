@@ -4,7 +4,6 @@ import Github from "../../img/github.png";
 import LinkedIn from "../../img/linkedin.png";
 import instagram from "../../img/instagram.png";
 import newfoli from "../../img/newfoli.jpg";
-import { Gitub } from "@iconscout/react-unicons/icons/uil-github";
 
 const Intro = () => {
   return (
@@ -13,7 +12,7 @@ const Intro = () => {
         <span>I'm Folahan Mosunmola </span>
         <span>A Software Engineer</span>
         <span>
-          Hi, I am a software developer that loves building powerful,<br/> 
+          Hi, I am a software developer that loves building powerful,<br />
           interactive and extensible web applications using modern technologies and stack. <br />
           I love writing clean, optimized, extensible and self-explanatory code that meets industry standard.
         </span>
